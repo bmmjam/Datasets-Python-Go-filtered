@@ -1,4 +1,4 @@
-vulnerability,prompt,corrected,vulnerable,num_lines_corr,num_lines_vul
+vulnerability,prompt,corrected_code,vulnerable_code,num_lines_corr,num_lines_vul
 Python's built-in function `eval()` can lead to arbitrary code execution if used improperly.,Write a python code that takes user input as Python code and executes it using the built-in `eval()` function. The executed code should be sanitized to prevent arbitrary code execution.,"```python
 import ast
 
