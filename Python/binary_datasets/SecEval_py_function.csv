@@ -1,4 +1,4 @@
-prompt,vulnerable_code,cwe,num_lines,is_vul
+prompt,code,cwe,num_lines,is_vul
 "import yaml
 
 
